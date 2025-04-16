@@ -1,4 +1,5 @@
-export default [{
+export default [
+  {
     _id: "123",
     username: "iron_man",
     password: "stark123",
@@ -10,7 +11,7 @@ export default [{
     loginId: "001234561S",
     section: "S101",
     lastActivity: "2020-10-01",
-    totalActivity: "10:21:32"
+    totalActivity: "10:21:32",
   },
   {
     _id: "234",
@@ -24,7 +25,7 @@ export default [{
     loginId: "001234562S",
     section: "S101",
     lastActivity: "2020-11-02",
-    totalActivity: "15:32:43"
+    totalActivity: "15:32:43",
   },
   {
     _id: "345",
@@ -38,7 +39,7 @@ export default [{
     loginId: "001234564S",
     section: "S101",
     lastActivity: "2020-11-05",
-    totalActivity: "13:23:34"
+    totalActivity: "13:23:34",
   },
   {
     _id: "456",
@@ -52,7 +53,7 @@ export default [{
     loginId: "001234565S",
     section: "S101",
     lastActivity: "2020-12-01",
-    totalActivity: "11:22:33"
+    totalActivity: "11:22:33",
   },
   {
     _id: "567",
@@ -66,7 +67,7 @@ export default [{
     loginId: "001234566S",
     section: "S101",
     lastActivity: "2020-12-01",
-    totalActivity: "22:33:44"
+    totalActivity: "22:33:44",
   },
   {
     _id: "678",
@@ -80,7 +81,7 @@ export default [{
     loginId: "001234567S",
     section: "S101",
     lastActivity: "2020-12-02",
-    totalActivity: "44:33:22"
+    totalActivity: "44:33:22",
   },
   {
     _id: "789",
@@ -94,7 +95,7 @@ export default [{
     loginId: "001234568S",
     section: "S101",
     lastActivity: "2020-12-04",
-    totalActivity: "12:23:34"
+    totalActivity: "12:23:34",
   },
   {
     _id: "890",
@@ -108,5 +109,20 @@ export default [{
     loginId: "001234569S",
     section: "S101",
     lastActivity: "2020-11-11",
-    totalActivity: "21:32:43"
-  }]
+    totalActivity: "21:32:43",
+  },
+  {
+    _id: "777",
+    username: "ada",
+    password: "123",
+    firstName: "Ada",
+    lastName: "Lovelace",
+    email: "ada@lovelace.com",
+    dob: "1815-12-15",
+    role: "ADMIN",
+    loginId: "002143650S",
+    section: "S101",
+    lastActivity: "1852-11-27",
+    totalActivity: "21:32:43",
+  },
+];
